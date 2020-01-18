@@ -1,3 +1,21 @@
+import hero1 from '../images/players/img/hero1.jpg'
+import hero2 from '../images/players/img/hero2.jpg'
+import hero3 from '../images/players/img/hero3.jpg'
+import hero4 from '../images/players/img/hero4.jpg'
+import hero5 from '../images/players/img/hero5.jpg'
+import hero6 from '../images/players/img/hero6.jpg'
+import hero7 from '../images/players/img/hero7.jpg'
+
+const heroes = {
+  1: hero1,
+  2: hero2,
+  3: hero3,
+  4: hero4,
+  5: hero5,
+  6: hero6,
+  7: hero7
+};
+
 const render = function render(numPlayer) {
 	let carousel =
 		`<div class="container">
@@ -17,7 +35,7 @@ const render = function render(numPlayer) {
 		`">
                <div class="row">
                   <div class="col-md-7">
-                     <img src="../images/players/img/hero1.jpg" class="d-block w-100" alt="...">
+                     <img src="${heroes[1]}" class="d-block w-100" alt="...">
                   </div>
                   <div class="col-md-4">
                      <div class=" d-none d-md-block h-100">
@@ -53,7 +71,7 @@ const render = function render(numPlayer) {
 		`">
                <div class="row">
                   <div class="col-md-7">
-                     <img src="../images/players/img/hero2.jpg" class="d-block w-100" alt="...">
+                     <img src="${heroes[2]}" class="d-block w-100" alt="...">
                   </div>
                   <div class="col-md-4">
                      <div class=" d-none d-md-block h-100">
@@ -90,7 +108,7 @@ const render = function render(numPlayer) {
 		`">
                <div class="row">
                   <div class="col-md-7">
-                     <img src="../images/players/img/hero3.jpg" class="d-block w-100" alt="...">
+                     <img src="${heroes[3]}" class="d-block w-100" alt="...">
                   </div>
                   <div class="col-md-4">
                      <div class=" d-none d-md-block h-100">
@@ -126,7 +144,7 @@ const render = function render(numPlayer) {
 		`">
                <div class="row">
                   <div class="col-md-7">
-                     <img src="../images/players/img/hero4.jpg" class="d-block w-100" alt="...">
+                     <img src="${heroes[4]}" class="d-block w-100" alt="...">
                   </div>
                   <div class="col-md-4">
                      <div class=" d-none d-md-block">
@@ -162,7 +180,7 @@ const render = function render(numPlayer) {
 		`">
                <div class="row">
                   <div class="col-md-7">
-                     <img src="../images/players/img/hero5.jpg" class="d-block w-100" alt="...">
+                     <img src="${heroes[5]}" class="d-block w-100" alt="...">
                   </div>
                   <div class="col-md-4">
                      <div class=" d-none d-md-block h-100">
@@ -198,7 +216,7 @@ const render = function render(numPlayer) {
 		`">
                <div class="row">
                   <div class="col-md-7">
-                     <img src="../images/players/img/hero6.jpg" class="d-block w-100" alt="...">
+                     <img src="${heroes[6]}" class="d-block w-100" alt="...">
                   </div>
                   <div class="col-md-4">
                      <div class=" d-none d-md-block h-100">
